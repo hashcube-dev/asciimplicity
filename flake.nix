@@ -21,6 +21,7 @@
         in
         {
           default = pkgs.mkShellNoCC { packages = with pkgs; [
+            nushell
             typst
             typstPackages.catppuccin
           ]; };

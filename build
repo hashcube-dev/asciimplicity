@@ -1,0 +1,23 @@
+#!/usr/bin/env nu
+
+def main [
+  manifest: string = "@all"
+  flavor: string = "mocha"
+] {
+  mkdir out
+  if $manifest == "@all" {
+    print "Manifest name is set to @all, compiling all manifests"
+    let manifests = ls manifests/*.yaml | get name | each {|x| $x | parse 'manifests/{name}.yaml' | get name | $in.0 }
+      for manifest in $manifests {
+        print $"Compiling ($manifest)..."
+        typst c main.typ $"out/($manifest){p}.png" --input flavor=$"($flavor)" --input manifest=$"($manifest)"
+        mv $"out/($manifest)1.png" $"out/($manifest)-vertical.png"
+        mv $"out/($manifest)2.png" $"out/($manifest)-horizontal.png"
+      }
+  } else {
+    print $"Compiling ($manifest)..."
+    typst c main.typ $"out/($manifest){p}.png" --input flavor=$"($flavor)" --input manifest=$"($manifest)"
+    mv $"out/($manifest)1.png" $"out/($manifest)-vertical.png"
+    mv $"out/($manifest)2.png" $"out/($manifest)-horizontal.png"
+  }
+}

@@ -103,8 +103,8 @@
     ]
   )
 }
-#let data = yaml("asciimplicity.yaml")
-#let palette = flavors.mocha.colors
+#let data = yaml("manifests/" + sys.inputs.manifest + ".yaml")
+#let palette = flavors.at(sys.inputs.flavor).colors
 #set text(font: "IosevkaHashcube Nerd Font Mono")
 #vertical(data, palette)
 #horizontal(data, palette)
