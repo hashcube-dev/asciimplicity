@@ -1,0 +1,42 @@
+#!/usr/bin/env nu
+
+def main [] {
+  mut base_file = {
+    Title: "Title"
+    Origin: "Origin"
+    Year: 2000
+    Genre: "Genre"
+    Author: "Author"
+    Singleplayer: false
+    Online: false
+    Local: false
+    Drawing: ""
+  }
+
+  print "Are you creating a manifest for a game"
+  let isGame = ["Yes" "No"] | input list | $in == "Yes"
+  let initialtitle = if $isGame { "game" } else { "software" }
+  print $"Enter the title of the ($initialtitle)"
+  $base_file.Title = (input)
+  print $"Enter the year ($base_file.Title) was released"
+  $base_file.Year = (input | into int)
+  print $"Where did this ($initialtitle) come from \(Steam, GoG, Wii, 3DS, Flatpak, GitHub, ...\)"
+  $base_file.Origin = (input)
+  print $"What genre is the ($initialtitle)?"
+  $base_file.Genre = (input)
+  print $"Who created the ($initialtitle)? \(Nintendo, Valve, Microsoft, ...\)"
+  $base_file.Author = (input)
+  if $isGame {
+    print $"Does ($base_file.Title) have single-player?"
+    $base_file.Singleplayer = (["Yes" "No"] | input list | $in == "Yes")
+    print $"Does ($base_file.Title) have online multiplayer?"
+    $base_file.Online = (["Yes" "No"] | input list | $in == "Yes")
+    print $"Does ($base_file.Title) have local multiplayer?"
+    $base_file.Local = (["Yes" "No"] | input list | $in == "Yes")
+  } else {
+    print $"(ansi yellow_bold)WARNING(ansi reset): Make sure to change `false` to `~`"
+  }
+  let manifestPath = $"manifests/($base_file.Title | str lowercase | str replace ' ' '_' -a)-($base_file.Origin | str lowercase | str replace -a ' ' '_').yaml"
+  $base_file | to yaml | save $manifestPath
+  print $"Manifest saved to ($manifestPath), please start working on the drawing"
+}
