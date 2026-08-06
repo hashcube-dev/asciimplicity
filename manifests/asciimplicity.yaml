@@ -8,20 +8,8 @@ Online: ~
 Local: ~
 Drawing: |
   for color in (
-    palette.rosewater,
-    palette.flamingo,
-    palette.pink,
-    palette.mauve,
-    palette.red,
-    palette.peach,
-    palette.yellow,
-    palette.green,
-    palette.teal,
-    palette.sky,
-    palette.sapphire,
-    palette.blue,
-    palette.lavender,
-    palette.text,
-    palette.subtext1,
-    palette.subtext0,
+      palette.rosewater, palette.flamingo, palette.pink, palette.mauve,
+      palette.red, palette.peach, palette.yellow, palette.green,
+      palette.teal, palette.sky, palette.sapphire, palette.blue,
+      palette.lavender, palette.text, palette.subtext1, palette.subtext0,
   ) { for _ in range(30) { text(fill: color.rgb)[@] }; [\ ] }
