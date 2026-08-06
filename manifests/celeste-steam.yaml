@@ -1,0 +1,27 @@
+Title: Celeste
+Origin: Steam
+Year: 2018
+Genre: 2D Platformer
+Author: Maddy Thorson
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.surface0.rgb)
+  show "~": set text(fill: palette.green.rgb)
+  show "=": set text(fill: palette.green.rgb)
+  show "H": set text(fill: palette.red.rgb)
+  show ".": set text(fill: palette.rosewater.rgb)
+  [    @@@@\ ]
+  [@@@@@@\~\~===@@\ ]
+  [@@\~\~==@@==\~\~==@@\ ]
+  [@@\~\~==\~\~==\~\~==@@==@@\ ]
+    [@\@HHHHHHHHHHHH@@\ ]
+  [@\@HH..\..HHHHHHHHHH@@\ ]
+  [@\@..HHHHHH..HHHH..@@\ ]
+  [@\@HHHHHHHHHHHHHHHH@@\ ]
+  [@\@HHHHHHHHHHHHHHHH@@\ ]
+  [@\@HHHHHHHHHHHH@@\ ]
+  [@\@HHHHHHHH@@\ ]
+  [@\@HHHH@@\ ]
+  [@@@@\ ]
