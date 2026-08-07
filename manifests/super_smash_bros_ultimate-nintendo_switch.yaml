@@ -1,0 +1,24 @@
+Title: Super Smash Bros. Ultimate
+Origin: Nintendo Switch
+Year: 2018
+Genre: Fighting Game
+Author: Nintendo
+Singleplayer: true
+Online: true
+Local: true
+Drawing: |
+  // comment so i can indent properly
+        `    |---------\_`.text; [\ ]
+      `_|    |###########\_`.text; [\ ]
+    `_/#|    |#############\_`.text; [\ ]
+   `/###|    |###############\`.text; [\ ]
+  `/####|    |################\`.text; [\ ]
+  `|####|    |################|`.text; [\ ]
+  `|####|    |################|`.text; [\ ]
+  `+----+    +----------------+`.text; [\ ]
+  `-----+    +---------------- `.text; [\ ]
+   `\_##|    |##############_/`.text; [\ ]
+     `\_|    |############_/`.text; [\ ]
+       `|    |##########_/`.text; [\ ]
+         `   |---------/`.text; [\ ]
+
