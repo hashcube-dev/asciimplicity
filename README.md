@@ -7,6 +7,7 @@ Asciimplicity is a Programmatically generated set of Steam Grids made from a sim
 Requirements:
 - Typst Compiler
 - Nushell (to run the build script)
+- [Iosevka Hashcube](https://tangled.org/did:plc:efquyxtdunysezeo27wkrw5l)
 
 ```sh
 ./build (manifest) (flavor)
