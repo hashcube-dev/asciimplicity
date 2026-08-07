@@ -2,6 +2,19 @@
 
 Asciimplicity is a Programmatically generated set of Steam Grids made from a simple `.yaml` file.
 
+## Build Instructions
+
+Requirements:
+- Typst Compiler
+- Nushell (to run the build script)
+
+```sh
+./build (manifest) (flavor)
+```
+
+`manifest` is the name of the grid to generate. It defaults to `@all`, which builds all manifests
+`flavor` is the catppuccin flavor to use when generating. It defaults to `mocha`
+
 ## FAQ
 
 ### What is this?
@@ -13,7 +26,6 @@ I was using GOOGLE SLIDES and doing a lot of things manually. This is why the la
 almost a year ago at the time of writing this; it just really sucked to do.
 
 Recently though, I got reminded of the project and thought "I can do this way better." So I did.
-Well, not really. I just made the tools, but now I gotta go and actually use them.
 
 ### Why Catppuccin?
 
@@ -36,7 +48,7 @@ It has easy multiline strings and Typst supports it
 ### How is this easier/better than doing things manually?
 
 Well, for starters, this is fully open-source. fully cutting out Google as the middle man.
-Second, everything is mostly automatic. I say mostly because there are some things I want to do that would automate the process further.
+Second, everything is mostly automatic, the only thing that is manual is putting in some info and making the drawing.
 Lastly, and this is the coolest thing by far, the Ascii art is CODE! This is the example drawing.
 
 ```typst

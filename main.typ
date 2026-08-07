@@ -50,7 +50,7 @@
           width: 100%, height: 7.5%,
           fill: palette.surface1.rgb,
           // fucking insane oneliner
-          context(text(size: calc.min(30pt, 200pt/measure(data.Title).width * 10pt) , data.Title))
+          context(text(size: calc.min(25pt, 200pt/measure(data.Title).width * 10pt) , data.Title))
         )),
         // Art
         grid.cell(
