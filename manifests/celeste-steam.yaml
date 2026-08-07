@@ -12,6 +12,7 @@ Drawing: |
   show "=": set text(fill: palette.green.rgb)
   show "H": set text(fill: palette.red.rgb)
   show ".": set text(fill: palette.rosewater.rgb)
+  [\ ]
   [    @@@@\ ]
   [@@@@@@\~\~===@@\ ]
   [@@\~\~==@@==\~\~==@@\ ]
