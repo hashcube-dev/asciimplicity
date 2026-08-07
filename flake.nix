@@ -2,12 +2,14 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     systems.url = "github:nix-systems/default-linux";
+    iosevka-hashcube.url = "git+https://tangled.org/did:plc:efquyxtdunysezeo27wkrw5l";
   };
   outputs =
     {
       self,
       nixpkgs,
       systems,
+      iosevka-hashcube,
       ...
     }:
     let
@@ -24,6 +26,7 @@
             nushell
             typst
             typstPackages.catppuccin
+            iosevka-hashcube.packages.${system}.default
           ]; };
         }
       );
