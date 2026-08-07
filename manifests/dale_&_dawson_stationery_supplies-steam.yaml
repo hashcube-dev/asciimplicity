@@ -1,0 +1,27 @@
+Title: Dale & Dawson Stationery Supplies
+Origin: Steam
+Year: 2024
+Genre: Social Deduction
+Author: Striped Panda Studios
+Singleplayer: false
+Online: true
+Local: true
+Drawing: |
+  show "|": set text(fill: palette.surface0.rgb)
+  show "\\": set text(fill: palette.surface0.rgb)
+  show "_": set text(fill: palette.surface0.rgb)
+  show "/": set text(fill: palette.surface0.rgb)
+  show "[]": set text(fill: palette.green.rgb)
+  `        __________          `.text; [\ ]
+  `        |#########\         `.text; [\ ]
+  `        |##########\        `.text; [\ ]
+  `        |##########|        `.text; [\ ]
+  ` _______|__________|_______ `.text; [\ ]
+  `/##########################\`.text; [\ ]
+  `|######################[]##|`.text; [\ ]
+  `|##########################|`.text; [\ ]
+  `|####|                |####|`.text; [\ ]
+  `|####|  ============  |####|`.text; [\ ]
+  `|####|  ============  |####|`.text; [\ ]
+  `     |  ============  |     `.text; [\ ]
+  `     |________________|     `.text; [\ ]
