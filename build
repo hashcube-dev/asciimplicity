@@ -1,13 +1,13 @@
 #!/usr/bin/env nu
 
 def main [
-  manifest: string = "@all"
+  toBuild: string = "@all"
   flavor: string = "mocha"
 ] {
   mkdir out
-  if $manifest == "@all" {
+  if $toBuild == "@all" {
     print "Manifest name is set to @all, compiling all manifests"
-    let manifests = ls manifests/*.yaml | get name | each {|x| $x | parse 'manifests/{name}.yaml' | get name | $in.0 }
+    let manifests = ls -l manifests/*.yaml | where type == file | get name | each {|x| $x | parse 'manifests/{name}.yaml' | get name | $in.0 }
       for manifest in $manifests {
         print $"Compiling ($manifest)..."
         typst c main.typ $"out/($manifest){p}.png" --input flavor=$"($flavor)" --input manifest=$"($manifest)" --ppi 72
@@ -15,6 +15,10 @@ def main [
         mv $"out/($manifest)2.png" $"out/($manifest)-horizontal.png"
       }
   } else {
+    mut manifest = $toBuild
+    while (ls -l $"manifests/($manifest).yaml" | $in.target.0 != null) {
+      $manifest = ls -l $"manifests/($manifest).yaml" | $in.target.0 | parse '{name}.yaml' | get name | $in.0
+    }
     print $"Compiling ($manifest)..."
     typst c main.typ $"out/($manifest){p}.png" --input flavor=$"($flavor)" --input manifest=$"($manifest)" --ppi 72
     mv $"out/($manifest)1.png" $"out/($manifest)-vertical.png"
