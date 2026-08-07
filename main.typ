@@ -50,7 +50,7 @@
           width: 100%, height: 7.5%,
           fill: palette.surface1.rgb,
           // fucking insane oneliner
-          context(text(weight: "bold", size: calc.min(20pt, 200pt/measure(data.Title).width * 10pt) , data.Title))
+          context(text(weight: "bold", size: calc.min(20pt, 200pt/measure(data.Title).width * 30pt) , data.Title))
         )),
         // Art
         grid.cell(
@@ -61,7 +61,7 @@
             fill: palette.base.rgb,
             {
               set text(size: 17.5pt)
-              set par(leading: 5pt, spacing: 5pt)
+              set par(leading: 7.25pt, spacing: 7.25pt)
               eval(data.Drawing, mode: "code", scope: (palette: palette, sys: sys))
             }
           )
