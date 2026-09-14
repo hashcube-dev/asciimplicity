@@ -1,0 +1,24 @@
+Title: Portal 2
+Origin: Steam
+Year: 2011
+Genre: First Person Puzzle Game
+Author: Valve
+Singleplayer: true
+Online: true
+Local: true
+Drawing: |
+  show "@": set text(fill: palette.peach.rgb)
+  `       @@@@@@@   `.text; [\ ]
+  `    @@@@@@@@@@@@ `.text; [\ ]
+  `   @@@@      @@@@`.text; [\ ]
+  `  @@@         @@@`.text; [\ ]
+  ` @@@          @@@`.text; [\ ]
+  `@@@          @ @@`.text; [\ ]
+  `@@@            @@`.text; [\ ]
+  `@@@            @@`.text; [\ ]
+  `@@@           @@@`.text; [\ ]
+  `@@@          @@@ `.text; [\ ]
+  `@@@ @       @@@  `.text; [\ ]
+  ` @@@ @    @@@@   `.text; [\ ]
+  `  @@@@@@@@@@     `.text; [\ ]
+  `    @@@@@@       `.text; [\ ]

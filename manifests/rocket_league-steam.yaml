@@ -1,0 +1,18 @@
+Title: Rocket League
+Origin: Steam
+Year: 2015
+Genre: Vehicular Soccer
+Author: Psyonix LLC
+Singleplayer: true
+Online: true
+Local: true
+Drawing: |
+  show "@": set text(fill: palette.blue.rgb)
+  `@@@@@@@@@@@@@   @@@@@@      `.text; [\ ]
+  `@@@@@@@@@@@@@@  @@@@@@      `.text; [\ ]
+  `@@@@@@  @@@@@@  @@@@@@      `.text; [\ ]
+  `@@@@@@  @@@@@@  @@@@@@      `.text; [\ ]
+  `@@@@@@@@@@@@@   @@@@@@      `.text; [\ ]
+  `@@@@@@@@@@@@    @@@@@@      `.text; [\ ]
+  `@@@@@@ @@@@@@   @@@@@@@@@@@@`.text; [\ ]
+  `@@@@@@  @@@@@@@ @@@@@@@@@@@@`.text; [\ ]

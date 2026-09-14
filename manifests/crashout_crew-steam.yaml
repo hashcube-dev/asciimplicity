@@ -1,0 +1,22 @@
+Title: Crashout Crew
+Origin: Steam
+Year: 2026
+Genre: Casual Co-op
+Author: Aggro Crab
+Singleplayer: true
+Online: true
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.mauve.rgb)
+  `          @@@@@@@@@@@@      `.text; [\ ]
+  `      @@@@@@@@@@@@@@@@@@@   `.text; [\ ]
+  `    @@@@@@@@@@@@@@@@@@@@@@  `.text; [\ ]
+  `  @@@@@@@           @@@@@@@ `.text; [\ ]
+  ` @@@@@@              @@@@@@@`.text; [\ ]
+  `@@@@@@      @@@       @@@@@@`.text; [\ ]
+  `@@@@@@    @@@@@@     @@@@@@@`.text; [\ ]
+  `@@@@@@@ @@@@@@@     @@@@@@@ `.text; [\ ]
+  ` @@@@@@@@@@@@      @@@@@@@  `.text; [\ ]
+  `    @@@@         @@@@@@@    `.text; [\ ]
+  `             @@@@@@@@       `.text; [\ ]
+  `     @@@@@@@@@@@            `.text; [\ ]

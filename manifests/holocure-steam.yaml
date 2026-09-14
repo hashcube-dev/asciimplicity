@@ -1,0 +1,27 @@
+Title: HoloCure
+Origin: Steam
+Year: 2022
+Genre: Roguelike Shoot Em Up
+Author: Kay Yu
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.sky.rgb)
+  show "$": set text(fill: palette.subtext1.rgb)
+  show "]": set text(fill: palette.sapphire.rgb)
+  show "[": set text(fill: palette.blue.rgb)
+  `@@@@@@@               `.text; [\ ]
+  `@@@@@@@@@@            `.text; [\ ]
+  `@@@@@@@@@@@@@         `.text; [\ ]
+  `@@@@@@@@@@@@@@@@      `.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@  `.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@$$`.text; [\ ]
+  `@@@@@@@@@@@@@@@@$$$$]]`.text; [\ ]
+  `@@@@@@@@@@@@@$$$]]]][[`.text; [\ ]
+  `@@@@@@@@@@$$$]]][[[[  `.text; [\ ]
+  `@@@@@@$$$$]]][[[      `.text; [\ ]
+  `$$$$$$]]]][[[         `.text; [\ ]
+  `]]]]]][[[[            `.text; [\ ]
+  `[[[[[[                `.text; [\ ]

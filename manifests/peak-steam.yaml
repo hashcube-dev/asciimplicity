@@ -1,0 +1,27 @@
+Title: PEAK
+Origin: Steam
+Year: 2025
+Genre: Casual Co-op
+Author: Aggro Crab & Evil Landfall?
+Singleplayer: true
+Online: true
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.peach.rgb)
+  show "*": set text(fill: palette.peach.rgb)
+  show "°": set text(fill: palette.peach.rgb)
+  `            @@@@@@@         `.text; [\ ]
+  `           @@@@@@@@@@       `.text; [\ ]
+  `         @@@@@@@@@@@@@      `.text; [\ ]
+  `        @@@@@@@@@@@@@@@     `.text; [\ ]
+  `       @@@@@@@@@@@@@@@@     `.text; [\ ]
+  `      @@@@@@@@@@@@@@@@@@    `.text; [\ ]
+  `     @@@@@@@@@@ @@@@@@@@    `.text; [\ ]
+  `    @@@@@@@@@@   @@@@@@@@   `.text; [\ ]
+  `   @@@@@@@*@@    @@@@@@@@@  `.text; [\ ]
+  `  @@@@@@@  @      @@@@@@@@  `.text; [\ ]
+  `  @@@@@@   °       @@@@@@@@ `.text; [\ ]
+  ` @@@@@@@            @@@@@@@@`.text; [\ ]
+  `@@@@@@@              @@@@@@@`.text; [\ ]
+  `@@@@@@@              @@@**  `.text; [\ ]
+  `   @@@                      `.text; [\ ]

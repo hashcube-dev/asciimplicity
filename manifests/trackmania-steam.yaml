@@ -1,0 +1,13 @@
+Title: Trackmania
+Origin: Steam
+Year: 2020
+Genre: Racing
+Author: Nadeo
+Singleplayer: true
+Online: true
+Local: true
+Drawing: |
+    show "@": set text(fill: palette.teal.rgb)
+    `@@@@@@ @@@@@@ @@@@@@ @@@@@@`.text; [\ ]
+    `    @@ @@     @@         @@`.text; [\ ]
+    `   @@ @@     @@         @@ `.text; [\ ]

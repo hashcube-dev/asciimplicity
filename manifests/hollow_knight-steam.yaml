@@ -1,0 +1,26 @@
+Title: Hollow Knight
+Origin: Steam
+Year: 2017
+Genre: Metroidvania
+Author: Team Cherry
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.blue.rgb)
+  show "*": set text(fill: palette.blue.rgb)
+  show "°": set text(fill: palette.blue.rgb)
+  `   @@@@*          *@@@@@   `.text; [\ ]
+  ` @@@@@               @@@@@ `.text; [\ ]
+  `@@@@                   @@@@`.text; [\ ]
+  `@@@@                   @@@@`.text; [\ ]
+  `@@@@                   @@@@`.text; [\ ]
+  ` *@@@                 @@@* `.text; [\ ]
+  `   @@@@@@@@@@@@@@@@@@@@@   `.text; [\ ]
+  `    @@@@@@@@@@@@@@@@@@@    `.text; [\ ]
+  `    @@@@@@@@@@@@@@@@@@@    `.text; [\ ]
+  `    @@@@@@@@@@@@@@@@@@@    `.text; [\ ]
+  `    @@*    @@@@@@   *@@    `.text; [\ ]
+  `    @@     @@@@@     @@    `.text; [\ ]
+  `    °@@   @@@@@@@   @@°    `.text; [\ ]
+  `     °@@@@@@@@@@@@@@@°     `.text; [\ ]

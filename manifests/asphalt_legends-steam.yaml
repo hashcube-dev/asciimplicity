@@ -1,0 +1,24 @@
+Title: Asphalt Legends
+Origin: Steam
+Year: 2022
+Genre: Racing
+Author: Gameloft
+Singleplayer: true
+Online: true
+Local: true
+Drawing: |
+  show "@": set text(fill: palette.mauve.rgb)
+  `@@@@@@@@@@@@@@@@@   @@`.text; [\ ]
+  `@@        @@@@@@  @@@@`.text; [\ ]
+  `@@      @@@@@@   @@@@@`.text; [\ ]
+  `@@     @@@@@@   @@@@@@`.text; [\ ]
+  `@@    @@@@@@  @@@@@@  `.text; [\ ]
+  `@   @@@@@@   @@@@@@   `.text; [\ ]
+  `   @@@@@@  @@@@@@@  @@`.text; [\ ]
+  ` @@@@@@   @@@@@@    @@`.text; [\ ]
+  `@@@@@@   @@@@@@     @@`.text; [\ ]
+  `@@@@@  @@@@@@       @@`.text; [\ ]
+  `@@@   @@@@@@       @@@`.text; [\ ]
+  `     @@@@@@    @@@@@  `.text; [\ ]
+  `     @@@@@@@@@@@@     `.text; [\ ]
+  `         @@@@         `.text; [\ ]

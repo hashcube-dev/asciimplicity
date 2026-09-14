@@ -1,0 +1,46 @@
+Title: Portal With RTX
+Origin: Steam
+Year: 2022
+Genre: First Person Puzzle Game
+Author: Valve
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "R": set text(fill: palette.sapphire.rgb)
+  show "T": set text(fill: palette.sapphire.rgb)
+  show "X": set text(fill: palette.sapphire.rgb)
+
+  show "N": set text(fill: palette.green.rgb)
+  show "V": set text(fill: palette.green.rgb)
+  show "I": set text(fill: palette.green.rgb)
+  show "D": set text(fill: palette.green.rgb)
+  show "I": set text(fill: palette.green.rgb)
+  show "A": set text(fill: palette.green.rgb)
+
+  show "_": set text(fill: palette.green.rgb)
+
+  show "𝖱": set text(fill: palette.green.rgb)
+  show "A": set text(fill: palette.green.rgb)
+  show "Y": set text(fill: palette.green.rgb)
+  show "𝖳": set text(fill: palette.green.rgb)
+  show "𝖱": set text(fill: palette.green.rgb)
+  show "A": set text(fill: palette.green.rgb)
+  show "C": set text(fill: palette.green.rgb)
+  show "I": set text(fill: palette.green.rgb)
+  show "N": set text(fill: palette.green.rgb)
+  show "G": set text(fill: palette.green.rgb)
+  `       RTXRTX    `.text; [\ ]
+  `    NRTXRTXRTXVI `.text; [\ ]
+  `   DRTX      RTXI`.text; [\ ]
+  `  RTX         RTX`.text; [\ ]
+  ` RTX          RTX`.text; [\ ]
+  `RTX          R TX`.text; [\ ]
+  `RTX            A_`.text; [\ ]
+  `RTX            𝖱A`.text; [\ ]
+  `RTX           RTX`.text; [\ ]
+  `RTX          RTX `.text; [\ ]
+  `RTX Y       RTX  `.text; [\ ]
+  ` RTX 𝖳    RTX𝖱   `.text; [\ ]
+  `  RTXRTXRTXA     `.text; [\ ]
+  `   RTXCING       `.text; [\ ]
