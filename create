@@ -36,7 +36,7 @@ def main [] {
   } else {
     print $"(ansi yellow_bold)WARNING(ansi reset): Make sure to change `false` to `~`"
   }
-  let manifestPath = $"manifests/($base_file.Title | str lowercase | str replace ' ' '_' -a)-($base_file.Origin | str lowercase | str replace -a ' ' '_' | str replace -a '.' '' ).yaml"
+  let manifestPath = $"manifests/($base_file.Title | str lowercase | str replace ' ' '_' -a)-($base_file.Origin | str lowercase | str replace -a ' ' '_' | str replace -a -r '[\.:/\\{}\[\]()|,]' '' ).yaml"
   $base_file | to yaml | save $manifestPath
   print $"Manifest saved to ($manifestPath), please start working on the drawing"
 }
