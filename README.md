@@ -1,5 +1,8 @@
 # Asciimplicity
 
+![Asciimplicity Horizontal Grid](./assets/preview-horizontal.webp)
+![Asciimplicity Vertical Grid](./assets/preview-vertical.webp)
+
 Asciimplicity is a Programmatically generated set of Steam Grids made from a simple `.yaml` file.
 
 ## Build Instructions

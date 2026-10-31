@@ -27,6 +27,7 @@
             typst
             typstPackages.catppuccin
             iosevka-hashcube.packages.${system}.default
+            catppuccin-catwalk
           ]; };
         }
       );
