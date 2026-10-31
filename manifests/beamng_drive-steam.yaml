@@ -1,0 +1,24 @@
+Title: BeamNG.drive
+Origin: Steam
+Year: 2015
+Genre: Vehicle Simulation
+Author: BeamNG GmbH
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.peach.rgb)
+  `                  @@@@@   `.text; [\ ]
+  `                 @@@@@@@  `.text; [\ ]
+  `                _@@@@@@@  `.text; [\ ]
+  `              _/ _@@@@@   `.text; [\ ]
+  `  @@@@@@@@@ _/ _/  |||    `.text; [\ ]
+  ` @@@@@@@@@@@ _/    |||    `.text; [\ ]
+  `@@@@@@@@@@@@@      |||    `.text; [\ ]
+  `@@@@@@@@@@@@@      |||    `.text; [\ ]
+  ` @@@@@@@@@@_ \_   @@@@@   `.text; [\ ]
+  `  @@@@@@@@@ \_ \@@@@@@@@@ `.text; [\ ]
+  `              \@@@@@@@@@@@`.text; [\ ]
+  `               @@@@@@@@@@@`.text; [\ ]
+  `                @@@@@@@@@ `.text; [\ ]
+  `                  @@@@@   `.text; [\ ]

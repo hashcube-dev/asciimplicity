@@ -1,0 +1,26 @@
+Title: PICO PARK
+Origin: Steam
+Year: 2021
+Genre: Coop Puzzle Platformer
+Author: TECOPARK
+Singleplayer: false
+Online: true
+Local: true
+Drawing: |
+  show "@": set text(fill: palette.peach.rgb)
+  show "P": set text(fill: palette.overlay1.rgb)
+  show "1": set text(fill: palette.subtext1.rgb)
+  `@@@@@@@         @@@@@@`.text; [\ ]
+  `@@@@@@@         @@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@PPPPPP@@@@@PPPPPP`.text; [\ ]
+  `@@@@@PPPPPP@@@@@PPPPPP`.text; [\ ]
+  `@@@@@PPPPPP@@@@@PPPPPP`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `     @@@@@@@@@@@111   `.text; [\ ]
+  `     111@@@@@@@@@@    `.text; [\ ]
+  `     111@@@@@@@@@@    `.text; [\ ]
+  `     @@@              `.text; [\ ]

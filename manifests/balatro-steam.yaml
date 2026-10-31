@@ -1,0 +1,26 @@
+Title: Balatro
+Origin: Steam
+Year: 2023
+Genre: Roguelike Deck Builder
+Author: LocalThunk
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.subtext0.rgb)
+  show "B": set text(fill: palette.subtext0.rgb)
+  `          @@@@@          `.text; [\ ]
+  `        @@BBBBB@@        `.text; [\ ]
+  `      @@BBBBBBBBB@@      `.text; [\ ]
+  `    @@BBBBBBBBBBBBB@@    `.text; [\ ]
+  `   @@BBBBBBBBBBBBBBB@@   `.text; [\ ]
+  `  @@BBBBBBBBBBBBBBBBB@@  `.text; [\ ]
+  `@@BBBBBBBBBBBBBBBBBBBBB@@`.text; [\ ]
+  `@@BBBBBBBBBBBBBBBBBBBBB@@`.text; [\ ]
+  `@@BBBBBBBBBBBBBBBBBBBBB@@`.text; [\ ]
+  `@@BBBBB@@BBBBBBB@@BBBBB@@`.text; [\ ]
+  `  @@@@@  @@BBB@@  @@@@@  `.text; [\ ]
+  `         @@BBB@@         `.text; [\ ]
+  `        @@BBBBB@@        `.text; [\ ]
+  `       @@BBBBBBB@@        `.text; [\ ]
+  `     @@@@@@@@@@@@@@@     `.text; [\ ]

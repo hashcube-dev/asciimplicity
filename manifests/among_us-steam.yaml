@@ -1,0 +1,26 @@
+Title: Among Us
+Origin: Steam
+Year: 2018
+Genre: Social Deduction
+Author: Innersloth
+Singleplayer: false
+Online: true
+Local: true
+Drawing: |
+  show "@": set text(fill: palette.overlay1.rgb)
+  show "A": set text(fill: palette.sky.rgb)
+  show "U": set text(fill: palette.red.rgb)
+  `      @@@@@@@@      `.text; [\ ]
+  `    @@UUUUUUUU@@    `.text; [\ ]
+  `  @@@@@@@@@UUUUU@@  `.text; [\ ]
+  ` @@AAAAAAA@@UUUU@@  `.text; [\ ]
+  `@@AAAAAAAAA@@UUUU@@ `.text; [\ ]
+  ` @@AAAAAAA@@UUUUUU@@`.text; [\ ]
+  `  @@@@@@@@@UUUUUUU@@`.text; [\ ]
+  `   @@UUUUUUUUUUUUU@@`.text; [\ ]
+  `   @@UUUUUUUUUUUU@@ `.text; [\ ]
+  `   @@UUU@@@@UUU@@   `.text; [\ ]
+  `   @@UU@@  @@UU@@   `.text; [\ ]
+  `   @@UU@@  @@UU@@   `.text; [\ ]
+  `   @@UU@@  @@UU@@   `.text; [\ ]
+  `    @@@@    @@@@    `.text; [\ ]

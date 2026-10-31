@@ -1,0 +1,24 @@
+Title: Marvel Rivals
+Origin: Steam
+Year: 2024
+Genre: Third-person Hero Shooter
+Author: NetEase Games
+Singleplayer: false
+Online: true
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.subtext1.rgb)
+  show "\\": set text(fill: palette.yellow.rgb)
+  show "#": set text(fill: palette.yellow.rgb)
+  `\###########\               `.text; [\ ]
+  `      \######\              `.text; [\ ]
+  `@@@@@@@  \#####\     @@@@@@@`.text; [\ ]
+  `@@         \#####\        @@`.text; [\ ]
+  `@@            \#####\     @@`.text; [\ ]
+  `@@    \##############\    @@`.text; [\ ]
+  `@@     \##############\   @@`.text; [\ ]
+  `@@      \#####\           @@`.text; [\ ]
+  `@@        \#####\         @@`.text; [\ ]
+  `@@@@@@@     \#####\  @@@@@@@`.text; [\ ]
+  `              \######\      `.text; [\ ]
+  `               \###########\`.text; [\ ]

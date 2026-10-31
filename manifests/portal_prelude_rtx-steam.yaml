@@ -1,0 +1,40 @@
+Title: 'Portal: Prelude RTX'
+Origin: Steam
+Year: 2023
+Genre: First Person Puzzle Game
+Author: Nicolas Grevet (Nyk018)
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "N": set text(fill: palette.green.rgb)
+  show "V": set text(fill: palette.green.rgb)
+  show "I": set text(fill: palette.green.rgb)
+  show "D": set text(fill: palette.green.rgb)
+  show "I": set text(fill: palette.green.rgb)
+  show "A": set text(fill: palette.green.rgb)
+
+  show "𝖱": set text(fill: palette.green.rgb)
+  show "A": set text(fill: palette.green.rgb)
+  show "Y": set text(fill: palette.green.rgb)
+  show "𝖳": set text(fill: palette.green.rgb)
+  show "𝖱": set text(fill: palette.green.rgb)
+  show "A": set text(fill: palette.green.rgb)
+  show "C": set text(fill: palette.green.rgb)
+  show "I": set text(fill: palette.green.rgb)
+  show "N": set text(fill: palette.green.rgb)
+  show "G": set text(fill: palette.green.rgb)
+  `         ___________        `.text; [\ ]
+  `    ____/\RTXRTXRTX|\___    `.text; [\ ]
+  `   /NVRTXR\____TXRT\XRTX\   `.text; [\ ]
+  `  /IRTXRT______\____\XRTX\  `.text; [\ ]
+  ` /RTXRTX/           \|DRTX\ `.text; [\ ]
+  `=======/             \IRTX/\`.text; [\ ]
+  `[ARTX_/              |RT_/X]`.text; [\ ]
+  `[𝖱RT/X|              |A/RTX]`.text; [\ ]
+  `[YR/TX\              |/𝖳RTX]`.text; [\ ]
+  `[𝖱/ARTX|             /CIRTX]`.text; [\ ]
+  ` [RTXRTX|___________/====== `.text; [\ ]
+  `  \RTXRT\XRTXRT\__XRTXRTX/  `.text; [\ ]
+  `   \___R|TXRTXRTXR\NG___/   `.text; [\ ]
+  `       \|__________\/       `.text; [\ ]

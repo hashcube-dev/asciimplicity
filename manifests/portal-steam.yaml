@@ -1,0 +1,24 @@
+Title: Portal
+Origin: Steam
+Year: 2007
+Genre: First Person Puzzle Game
+Author: Valve
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.sapphire.rgb)
+  `       @@@@@@@   `.text; [\ ]
+  `    @@@@@@@@@@@@ `.text; [\ ]
+  `   @@@@      @@@@`.text; [\ ]
+  `  @@@         @@@`.text; [\ ]
+  ` @@@          @@@`.text; [\ ]
+  `@@@          @ @@`.text; [\ ]
+  `@@@            @@`.text; [\ ]
+  `@@@            @@`.text; [\ ]
+  `@@@           @@@`.text; [\ ]
+  `@@@          @@@ `.text; [\ ]
+  `@@@ @       @@@  `.text; [\ ]
+  ` @@@ @    @@@@   `.text; [\ ]
+  `  @@@@@@@@@@     `.text; [\ ]
+  `    @@@@@@       `.text; [\ ]

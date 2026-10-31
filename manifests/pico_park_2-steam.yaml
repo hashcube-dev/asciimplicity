@@ -1,0 +1,26 @@
+Title: PICO PARK 2
+Origin: Steam
+Year: 2024
+Genre: Coop Puzzle Platformer
+Author: TECOPARK
+Singleplayer: false
+Online: true
+Local: true
+Drawing: |
+  show "@": set text(fill: palette.green.rgb)
+  show "P": set text(fill: palette.overlay1.rgb)
+  show "2": set text(fill: palette.subtext1.rgb)
+  `@@@@@@@         @@@@@@`.text; [\ ]
+  `@@@@@@@         @@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@PPPPPP@@@@@PPPPPP`.text; [\ ]
+  `@@@@@PPPPPP@@@@@PPPPPP`.text; [\ ]
+  `@@@@@PPPPPP@@@@@PPPPPP`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]
+  `     @@@@@@@@@@@222   `.text; [\ ]
+  `     222@@@@@@@@@@    `.text; [\ ]
+  `     222@@@@@@@@@@    `.text; [\ ]
+  `     @@@              `.text; [\ ]

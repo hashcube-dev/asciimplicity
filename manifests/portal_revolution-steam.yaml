@@ -1,0 +1,24 @@
+Title: 'Portal: Revolution'
+Origin: Steam
+Year: 2024
+Genre: First Person Puzzle Game
+Author: Second Face Software
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.red.rgb)
+  `       @@@@@@@   `.text; [\ ]
+  `    @@@@@@@@@@@@ `.text; [\ ]
+  `   @@@@      @@@@`.text; [\ ]
+  `  @@@         @@@`.text; [\ ]
+  ` @@@          @@@`.text; [\ ]
+  `@@@          @ @@`.text; [\ ]
+  `@@@            @@`.text; [\ ]
+  `@@@            @@`.text; [\ ]
+  `@@@           @@@`.text; [\ ]
+  `@@@          @@@ `.text; [\ ]
+  `@@@ @       @@@  `.text; [\ ]
+  ` @@@ @    @@@@   `.text; [\ ]
+  `  @@@@@@@@@@     `.text; [\ ]
+  `    @@@@@@       `.text; [\ ]
