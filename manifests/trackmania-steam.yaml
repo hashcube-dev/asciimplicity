@@ -7,7 +7,7 @@ Singleplayer: true
 Online: true
 Local: true
 Drawing: |
-    show "@": set text(fill: palette.teal.rgb)
+    show "@": set text(fill: palette.base0C.rgb.full)
     `@@@@@@ @@@@@@ @@@@@@ @@@@@@`.text; [\ ]
     `    @@ @@     @@         @@`.text; [\ ]
     `   @@ @@     @@         @@ `.text; [\ ]

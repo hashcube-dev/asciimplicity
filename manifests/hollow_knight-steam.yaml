@@ -7,9 +7,9 @@ Singleplayer: true
 Online: false
 Local: false
 Drawing: |
-  show "@": set text(fill: palette.blue.rgb)
-  show "*": set text(fill: palette.blue.rgb)
-  show "°": set text(fill: palette.blue.rgb)
+  show "@": set text(fill: palette.base0D.rgb.full)
+  show "*": set text(fill: palette.base0D.rgb.full)
+  show "°": set text(fill: palette.base0D.rgb.full)
   `   @@@@*          *@@@@@   `.text; [\ ]
   ` @@@@@               @@@@@ `.text; [\ ]
   `@@@@                   @@@@`.text; [\ ]

@@ -7,11 +7,11 @@ Singleplayer: true
 Online: false
 Local: false
 Drawing: |
-  show "@": set text(fill: palette.surface0.rgb)
-  show "~": set text(fill: palette.green.rgb)
-  show "=": set text(fill: palette.green.rgb)
-  show "H": set text(fill: palette.red.rgb)
-  show ".": set text(fill: palette.rosewater.rgb)
+  show "@": set text(fill: palette.base02.rgb.full)
+  show "~": set text(fill: palette.base0B.rgb.full)
+  show "=": set text(fill: palette.base0B.rgb.full)
+  show "H": set text(fill: palette.base08.rgb.full)
+  show ".": set text(fill: palette.base13.rgb.full)
   [\ ]
   [    @@@@\ ]
   [@@@@@@\~\~===@@\ ]

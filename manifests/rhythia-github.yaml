@@ -7,10 +7,10 @@ Singleplayer: true
 Online: false
 Local: false
 Drawing: |
-  show "#": set text(fill: palette.red.rgb)
-  show "*": set text(fill: palette.red.rgb)
-  show "+": set text(fill: palette.red.rgb)
-  show "=": set text(fill: palette.red.rgb)
+  show "#": set text(fill: palette.base08.rgb.full)
+  show "*": set text(fill: palette.base08.rgb.full)
+  show "+": set text(fill: palette.base08.rgb.full)
+  show "=": set text(fill: palette.base08.rgb.full)
   `             ##***++        `.text; [\ ]
   `         #####***++===      `.text; [\ ]
   `     ########*    =====     `.text; [\ ]

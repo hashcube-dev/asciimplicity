@@ -7,10 +7,10 @@ Singleplayer: true
 Online: false
 Local: false
 Drawing: |
-  show "@": set text(fill: palette.sky.rgb)
-  show "$": set text(fill: palette.subtext1.rgb)
-  show "]": set text(fill: palette.sapphire.rgb)
-  show "[": set text(fill: palette.blue.rgb)
+  show "@": set text(fill: palette.base15.rgb.full)
+  show "$": set text(fill: palette.base06.rgb.full)
+  show "]": set text(fill: palette.base16.rgb.full)
+  show "[": set text(fill: palette.base0D.rgb.full)
   `@@@@@@@               `.text; [\ ]
   `@@@@@@@@@@            `.text; [\ ]
   `@@@@@@@@@@@@@         `.text; [\ ]

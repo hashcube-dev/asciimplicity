@@ -7,9 +7,9 @@ Singleplayer: false
 Online: true
 Local: true
 Drawing: |
-  show "@": set text(fill: palette.overlay1.rgb)
-  show "A": set text(fill: palette.sky.rgb)
-  show "U": set text(fill: palette.red.rgb)
+  show "@": set text(fill: palette.base04.rgb.full)
+  show "A": set text(fill: palette.base15.rgb.full)
+  show "U": set text(fill: palette.base08.rgb.full)
   `      @@@@@@@@      `.text; [\ ]
   `    @@UUUUUUUU@@    `.text; [\ ]
   `  @@@@@@@@@UUUUU@@  `.text; [\ ]

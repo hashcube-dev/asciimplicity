@@ -2,26 +2,58 @@
 
 def main [
   toBuild: string = "@all"
-  flavor: string = "mocha"
+  scheme: string = "@all"
 ] {
+  mut built = 0
   mkdir out
+  let manifests = ls -l manifests/*.yaml | where type == file | get name | each {|x| $x | parse 'manifests/{name}.yaml' | get name | $in.0 }
+  let schemes = ls schemes/**/* | where type == file | get name | each {|x| $x | parse 'schemes/{name}.yaml' | get name | $in.0 }
   if $toBuild == "@all" {
     print "Manifest name is set to @all, compiling all manifests"
-    let manifests = ls -l manifests/*.yaml | where type == file | get name | each {|x| $x | parse 'manifests/{name}.yaml' | get name | $in.0 }
-      for manifest in $manifests {
-        print $"Compiling ($manifest)..."
-        typst c main.typ $"out/($manifest){p}.png" --input flavor=$"($flavor)" --input manifest=$"($manifest)" --ppi 72
-        mv $"out/($manifest)1.png" $"out/($manifest)-vertical.png"
-        mv $"out/($manifest)2.png" $"out/($manifest)-horizontal.png"
+    if $scheme == "@all" {
+      print "Scheme name is set to @all, compiling all schemes"
+      for scheme in $schemes {
+	for manifest in $manifests {
+	  build_manifest $manifest $scheme
+	  $built += 1
+	}
       }
+    } else {
+      for manifest in $manifests {
+	build_manifest $manifest $scheme
+	$built += 1
+      }
+    }
   } else {
     mut manifest = $toBuild
     while (ls -l $"manifests/($manifest).yaml" | $in.target.0 != null) {
       $manifest = ls -l $"manifests/($manifest).yaml" | $in.target.0 | parse '{name}.yaml' | get name | $in.0
     }
-    print $"Compiling ($manifest)..."
-    typst c main.typ $"out/($manifest){p}.png" --input flavor=$"($flavor)" --input manifest=$"($manifest)" --ppi 72
-    mv $"out/($manifest)1.png" $"out/($manifest)-vertical.png"
-    mv $"out/($manifest)2.png" $"out/($manifest)-horizontal.png"
+    if $scheme == "@all" {
+      print "Scheme name is set to @all, compiling all schemes"
+      for scheme in $schemes {
+	build_manifest $manifest $scheme
+	$built += 1
+      }
+    } else {
+      build_manifest $manifest $scheme
+      $built += 1
+    }
   }
+  if built == 1 {
+    print $"Done building ($built) manifest"
+  } else {
+    print $"Done building ($built) manifests"
+  }
+}
+
+def build_manifest [
+  manifest: string
+  scheme: string
+] {
+    mkdir $"out/($scheme)"
+    print $"Compiling ($manifest) for ($scheme)..."
+    typst c main.typ $"out/($scheme)/($manifest){p}.png" --input scheme=$"($scheme)" --input manifest=$"($manifest)" --ppi 72
+    mv $"out/($scheme)/($manifest)1.png" $"out/($scheme)/($manifest)-vertical.png"
+    mv $"out/($scheme)/($manifest)2.png" $"out/($scheme)/($manifest)-horizontal.png"
 }

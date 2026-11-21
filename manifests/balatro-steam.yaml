@@ -7,8 +7,8 @@ Singleplayer: true
 Online: false
 Local: false
 Drawing: |
-  show "@": set text(fill: palette.subtext0.rgb)
-  show "B": set text(fill: palette.subtext0.rgb)
+  show "@": set text(fill: palette.base04.rgb.full)
+  show "B": set text(fill: palette.base04.rgb.full)
   `          @@@@@          `.text; [\ ]
   `        @@BBBBB@@        `.text; [\ ]
   `      @@BBBBBBBBB@@      `.text; [\ ]
@@ -22,5 +22,5 @@ Drawing: |
   `  @@@@@  @@BBB@@  @@@@@  `.text; [\ ]
   `         @@BBB@@         `.text; [\ ]
   `        @@BBBBB@@        `.text; [\ ]
-  `       @@BBBBBBB@@        `.text; [\ ]
+  `       @@BBBBBBB@@       `.text; [\ ]
   `     @@@@@@@@@@@@@@@     `.text; [\ ]

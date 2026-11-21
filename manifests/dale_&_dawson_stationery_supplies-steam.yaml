@@ -7,11 +7,11 @@ Singleplayer: false
 Online: true
 Local: true
 Drawing: |
-  show "|": set text(fill: palette.surface0.rgb)
-  show "\\": set text(fill: palette.surface0.rgb)
-  show "_": set text(fill: palette.surface0.rgb)
-  show "/": set text(fill: palette.surface0.rgb)
-  show "[]": set text(fill: palette.green.rgb)
+  show "|": set text(fill: palette.base02.rgb.full)
+  show "\\": set text(fill: palette.base02.rgb.full)
+  show "_": set text(fill: palette.base02.rgb.full)
+  show "/": set text(fill: palette.base02.rgb.full)
+  show "[]": set text(fill: palette.base0B.rgb.full)
   `        __________          `.text; [\ ]
   `        |#########\         `.text; [\ ]
   `        |##########\        `.text; [\ ]

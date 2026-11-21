@@ -7,9 +7,9 @@ Singleplayer: false
 Online: true
 Local: true
 Drawing: |
-  show "@": set text(fill: palette.peach.rgb)
-  show "P": set text(fill: palette.overlay1.rgb)
-  show "1": set text(fill: palette.subtext1.rgb)
+  show "@": set text(fill: palette.base09.rgb.full)
+  show "P": set text(fill: palette.base03.rgb.full)
+  show "1": set text(fill: palette.base05.rgb.full)
   `@@@@@@@         @@@@@@`.text; [\ ]
   `@@@@@@@         @@@@@@`.text; [\ ]
   `@@@@@@@@@@@@@@@@@@@@@@`.text; [\ ]

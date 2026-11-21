@@ -7,23 +7,23 @@ Singleplayer: true
 Online: false
 Local: false
 Drawing: |
-  show "N": set text(fill: palette.green.rgb)
-  show "V": set text(fill: palette.green.rgb)
-  show "I": set text(fill: palette.green.rgb)
-  show "D": set text(fill: palette.green.rgb)
-  show "I": set text(fill: palette.green.rgb)
-  show "A": set text(fill: palette.green.rgb)
+  show "N": set text(fill: palette.base0B.rgb.full)
+  show "V": set text(fill: palette.base0B.rgb.full)
+  show "I": set text(fill: palette.base0B.rgb.full)
+  show "D": set text(fill: palette.base0B.rgb.full)
+  show "I": set text(fill: palette.base0B.rgb.full)
+  show "A": set text(fill: palette.base0B.rgb.full)
 
-  show "𝖱": set text(fill: palette.green.rgb)
-  show "A": set text(fill: palette.green.rgb)
-  show "Y": set text(fill: palette.green.rgb)
-  show "𝖳": set text(fill: palette.green.rgb)
-  show "𝖱": set text(fill: palette.green.rgb)
-  show "A": set text(fill: palette.green.rgb)
-  show "C": set text(fill: palette.green.rgb)
-  show "I": set text(fill: palette.green.rgb)
-  show "N": set text(fill: palette.green.rgb)
-  show "G": set text(fill: palette.green.rgb)
+  show "𝖱": set text(fill: palette.base0B.rgb.full)
+  show "A": set text(fill: palette.base0B.rgb.full)
+  show "Y": set text(fill: palette.base0B.rgb.full)
+  show "𝖳": set text(fill: palette.base0B.rgb.full)
+  show "𝖱": set text(fill: palette.base0B.rgb.full)
+  show "A": set text(fill: palette.base0B.rgb.full)
+  show "C": set text(fill: palette.base0B.rgb.full)
+  show "I": set text(fill: palette.base0B.rgb.full)
+  show "N": set text(fill: palette.base0B.rgb.full)
+  show "G": set text(fill: palette.base0B.rgb.full)
   `         ___________        `.text; [\ ]
   `    ____/\RTXRTXRTX|\___    `.text; [\ ]
   `   /NVRTXR\____TXRT\XRTX\   `.text; [\ ]
