@@ -12,11 +12,19 @@ Requirements:
 - [Iosevka Hashcube](https://tangled.org/did:plc:efquyxtdunysezeo27wkrw5l)
 
 ```sh
-./build (manifest) (scheme)
+./build (manifest) (scheme) (font)
 ```
 
-`manifest` is the name of the grid to generate. It defaults to `@all`, which builds all manifests. Manifests can be found in [./manifests](./manifests)
-`scheme` is the Base16/Base24 scheme to use when generating. It defaults to `@all`, which builds all schemes. Schemes can be found in [./schemes](./schemes)
+- `manifest` is the name of the grid to generate. It defaults to `@all`, which builds all manifests. Manifests can be found in [./manifests](./manifests)
+- `scheme` is the Base16/Base24 scheme to use when generating. It defaults to `@all`, which builds all schemes. Schemes can be found in [./schemes](./schemes)
+- `font` is the name of the font you wish to use when generating grids. It defaults to `Iosevka Hashcube` which is my specific flavor of [Iosevka](https://typeof.net/Iosevka/) 
+
+You may also put `scheme` and `font` in a `custom.yaml` file with the keys `scheme` and `font` respectively.
+The values in this file will override arguments passed in to `./build`.
+
+> [!WARNING]
+> Asciimplicity is specifically made for Iosevka Hashcube (and by extension Iosevka and derivatives of Iosevka)
+> and more generally monospace fonts. If your specific font does not work, please do not make an issue on this repo, I will likely not fix it
 
 ## FAQ
 

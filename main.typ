@@ -105,6 +105,6 @@
 }
 #let data = yaml("manifests/" + sys.inputs.manifest + ".yaml")
 #let palette = scheme(yaml("schemes/" + sys.inputs.scheme + ".yaml"))
-#set text(font: "Iosevka Hashcube")
+#set text(font: sys.inputs.font)
 #vertical(data, palette)
 #horizontal(data, palette)
