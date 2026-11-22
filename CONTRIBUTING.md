@@ -5,16 +5,35 @@
 Making a manifest is simplified by the `./create` script. The script requires nushell to run.
 Simply follow the instructions and then make the art.
 
-Symlinks are allowed to help shorten the names of otherwise long games.
-Symlinks can also be used when a game is only available on one platform
+Symlinks can be used to shorten manifest names in order to make typing names easier.
+Please do this, it makes things a lot easier.
 
 Ex: `dale_&_dawson_stationery_supplies-steam.yaml` -> `dale_&_dawson_stationery_supplies.yaml` -> `ddss.yaml`
+
+In the event a game is on multiple platforms, the following list can be used as a guide of priority:
+
+- GitHub (or similar {think GitLab & Codeberg})
+- Steam
+- Itch.io
+- GoG
+- Web (used for webpages)
+
+This list is not exhaustive and is certainly not a hard rule.
+
+## Handling Ambiguity
+
+In any case where ambiguity may arise, it is better to avoid these scenarios rather than take a choice in them.
+For example, both `Team Fortress 2` and `Titanfall 2` are referred to as `TF2`. Therefore, neither game gets the `tf2` alias.
 
 ## Submitting a Manifest
 
 Please submit your manifest as a PR on either
 [Tangled](https://tangled.org/hashcube.dev/asciimplicity/pulls/new) or [GitHub](https://github.com/hashcube-dev/asciimplicity/compare).
 Please also ensure your manifest builds correctly and all of the info is correct.
+
+> [!NOTE]
+> Please send in one PR per game/software. I'd rather go through 10 small PRs than 1 big PR, and it also keeps things more organized.
+> Games on different platforms being in the same PR is fine.
 
 ## Software/Games Rules
 
