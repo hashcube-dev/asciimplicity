@@ -1,0 +1,28 @@
+Title: 'Hollow Knight: Silksong'
+Origin: Steam
+Year: 2025
+Genre: Metroidvania
+Author: Team Cherry
+Singleplayer: true
+Online: false
+Local: false
+Drawing: |
+  show "@": set text(fill: palette.base08.rgb.full)
+  show "°": set text(fill: palette.base08.rgb.full)
+  show ".": set text(fill: palette.base08.rgb.full)
+  show ":": set text(fill: palette.base08.rgb.full)
+  show "*": set text(fill: palette.base08.rgb.full)
+  `    @@    @@    `.text; [\ ]
+  `   @@°    °@@   `.text; [\ ]
+  `  @@@      @@@  `.text; [\ ]
+  ` .@@@      @@@. `.text; [\ ]
+  ` @@@@      @@@@ `.text; [\ ]
+  `:@@@@@    @@@@@:`.text; [\ ]
+  `@@@@@@@  @@@@@@@`.text; [\ ]
+  `@@@@@@@@@@@@@@@@`.text; [\ ]
+  `:@@@@@@@@@@@@@@:`.text; [\ ]
+  ` @@@@@@@@@@@@@@ `.text; [\ ]
+  ` @@ @@@@@@@@ @@ `.text; [\ ]
+  `  @   @@@@   @  `.text; [\ ]
+  `   °@ :@@: @°   `.text; [\ ]
+  `    °*@@@@*°    `.text; [\ ]
